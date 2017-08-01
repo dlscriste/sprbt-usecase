@@ -9,7 +9,7 @@ public class Student
 {
 	//~ Instance fields --------------------------
 	/**  */
-	private long id;
+	private Long id;
 
 	/**  */
 	private String name;
@@ -17,7 +17,6 @@ public class Student
 	/**  */
 	private String subject;
 	//~ Constructors -----------------------------
-
 	/** Creates a new Student object. */
 	private Student( ) { }
 
@@ -35,18 +34,16 @@ public class Student
 		this.subject = subject;
 	}
 	//~ Methods ----------------------------------
-
 	/**
 	 * DOCUMENT ME!
 	 *
 	 * @return
 	 */
-	public long getId()
+	public Long getId()
 	{
 		return id;
 	}
 	
-
 	/**
 	 * DOCUMENT ME!
 	 *
@@ -57,7 +54,6 @@ public class Student
 		return name;
 	}
 	
-
 	/**
 	 * DOCUMENT ME!
 	 *
@@ -68,7 +64,6 @@ public class Student
 		this.name = name;
 	}
 	
-
 	/**
 	 * DOCUMENT ME!
 	 *
@@ -79,7 +74,6 @@ public class Student
 		return subject;
 	}
 	
-
 	/**
 	 * DOCUMENT ME!
 	 *
@@ -90,7 +84,6 @@ public class Student
 		this.subject = subject;
 	}
 	
-
 	/** @see  java.lang.Object#toString() */
 	@Override
 	public String toString()
@@ -99,7 +92,6 @@ public class Student
 		+ "id=" + id + ", name='" + name + '\'' + ", subject='" + subject + '\'' + '}';
 	}
 	//~ Inner Classes ----------------------------
-
 	/**
 	 * DOCUMENT ME!
 	 *
@@ -108,7 +100,7 @@ public class Student
 	public static class Builder
 	{
 		/**  */
-		private long id;
+		private Long id;
 
 		/**  */
 		private String name;
